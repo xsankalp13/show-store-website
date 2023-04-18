@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Downloading and Running a Next.js Project Locally
 
-## Getting Started
+Here are the steps to download and run a Next.js project on a local machine:
 
-First, run the development server:
+**Downloading and Setting up the project locally:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+1. Visit your project's repository on GitHub.
+2. Click on the "Clone or download" button and copy the HTTPS or SSH URL.
+3. Open your terminal and navigate to the directory where you want to store the project.
+4. Run the following command to clone the repository:
+
+```shell
+git clone https://github.com/xsankalp13/show-store-website.git
 ```
+This command will download the code from the repository to your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Navigate into the project directory:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+cd show-store-website
+```
+6. Install the required dependencies by running:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```shell
+npm i
+```
+**Running the project:**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Once the dependencies are installed, run the following command to start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```shell
+npm run dev
+```
+This command will start the development server and open up the project in your default browser.
 
-## Learn More
+2. You should now be able to view and interact with the project on your local machine.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Note:** Before running the project, make sure you have installed Node.js on your local machine. If not, you can download it from the official Node.js website: https://nodejs.org/
